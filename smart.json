@@ -1,8 +1,8 @@
 {
   "name": "meteor-mongo-api",
-  "description": "Perform CRUD operations on Meteor-Mongo Collections REST API",
+  "description": "Perform CRUD operations on Meteor-Mongo Collections REST API. Freeze of Todd Colton's collection-api.",
   "homepage": "https://github.com/HynesIP/meteor-mongo-api",
-  "author": "Todd Colton",
+  "author": "Randell S Hynes",
   "version": "0.1.15",
   "git": "https://github.com/HynesIP/meteor-mongo-api.git"
 }
