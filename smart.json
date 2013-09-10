@@ -1,8 +1,8 @@
 {
-  "name": "collection-api",
-  "description": "Perform CRUD operations on Collections over a RESTful API",
-  "homepage": "https://github.com/crazytoad/meteor-collectionapi",
+  "name": "meteor-mongo-api",
+  "description": "Perform CRUD operations on Meteor-Mongo Collections REST API",
+  "homepage": "https://github.com/HynesIP/meteor-mongo-api",
   "author": "Todd Colton",
   "version": "0.1.15",
-  "git": "https://github.com/crazytoad/meteor-collectionapi.git"
+  "git": "https://github.com/HynesIP/meteor-mongo-api.git"
 }
