@@ -7,7 +7,7 @@ CollectionAPI = function(options) {
   self._fiber = Npm.require('fibers');
   self._collections = {};
   self.options = {
-    apiPath: 'collectionapi',
+    apiPath: 'api',
     standAlone: false,
     sslEnabled: false,
     listenPort: 3005,
