@@ -34,7 +34,7 @@ CollectionAPI.prototype.start = function() {
   var self = this;
   var httpServer, httpOptions, scheme;
 
-  var startupMessage = 'Collection API v' + self.version;
+  var startupMessage = 'HIPACCESS API v' + self.version;
 
   if (self.options.standAlone === true) {
     if (self.options.sslEnabled === true) {
