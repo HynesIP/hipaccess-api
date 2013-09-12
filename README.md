@@ -1,4 +1,4 @@
-hipaccess-meteor-mongo-api
+hipaccess-api
 ================
 
 ALERT: This is a 09/10/2013 FREEZE of crazytoad/meteor-collectionapi @ https://github.com/crazytoad/meteor-collectionapi.git. 
