@@ -334,6 +334,7 @@ CollectionAPI._requestListener.prototype._sendResponse = function(statusCode, bo
   self._response.setHeader('Content-Length', Buffer.byteLength(body, 'utf8'));
   self._response.setHeader('Content-Type', 'application/json');
   self._response.setHeader('access-control-allow-origin', '*');
+  self._response.setHeader('access-control-allow-headers', 'origin, x-auth-token, content-Type, accept');
   self._response.write(body);
   self._response.end();
 };
