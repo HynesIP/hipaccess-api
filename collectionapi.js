@@ -118,7 +118,7 @@ CollectionAPI._requestListener = function (server, request, response) {
 CollectionAPI._requestListener.prototype._authenticate = function() {
   var self = this;
   var collectionOptions = self._server._collectionOptions(self._requestPath);
-
+alert(self._requestAuthToken+" : "+collectionOptions.authToken+" : "+self._server.options.authToken)
   // Check the collection's auth token
   if (collectionOptions && collectionOptions.authToken) {
     return self._requestAuthToken === collectionOptions.authToken;
