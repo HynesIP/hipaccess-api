@@ -125,9 +125,9 @@ console.log(self._requestAuthToken+" : "+collectionOptions.authToken+" : "+self.
   }
 
   // Check the global auth token
-  if (self._server.options.authToken) {
-    return self._requestAuthToken === self._server.options.authToken;
-  }
+  //if (self._server.options.authToken) {
+  //  return self._requestAuthToken === self._server.options.authToken;
+  //}
 
   return true;
 };
