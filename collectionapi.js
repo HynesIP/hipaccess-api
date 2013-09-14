@@ -119,6 +119,7 @@ CollectionAPI._requestListener.prototype._authenticate = function() {
   var self = this;
   var collectionOptions = self._server._collectionOptions(self._requestPath);
 console.log(self._requestAuthToken+" : "+collectionOptions.authToken+" : "+self._server.options.authToken)
+if(self._requestAuthToken!==undefined){
   // Check the collection's auth token
   if (collectionOptions && collectionOptions.authToken) {
     return self._requestAuthToken === collectionOptions.authToken;
@@ -130,6 +131,10 @@ console.log(self._requestAuthToken+" : "+collectionOptions.authToken+" : "+self.
   //}
 
   return true;
+}else{
+  return false
+}
+}
 };
 
 CollectionAPI._requestListener.prototype._handleRequest = function() {
