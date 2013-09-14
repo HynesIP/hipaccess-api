@@ -132,9 +132,9 @@ if(self._requestAuthToken!==undefined){
 
   return true;
 }else{
-  return false
+  return false;
 }
-}
+
 };
 
 CollectionAPI._requestListener.prototype._handleRequest = function() {
